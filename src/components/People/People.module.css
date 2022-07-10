@@ -1,0 +1,46 @@
+.section {
+   width: 950px;
+}
+
+.navbar {
+   display: flex;
+   justify-content: space-between;
+}
+
+.nav_item {
+   padding: 5px;
+   text-align: center;
+   background-color: #2B3133;
+   width: 300px;
+   color: #D8DCDD;
+}
+
+.peopleItem {
+   background-color: #BEC0C2;
+   color: #555A5D;
+   padding-left: 10px;
+   border-bottom: 1px solid #949596;
+}
+
+.peopleItem:hover {
+   background-color: #949596;
+   cursor: pointer;
+}
+
+/* pagination */
+.pagination {
+   background-color: #2B3133;
+}
+
+.pagination button {
+   background-color: #606364;
+   color: #B2B4B6;
+   width: 25px;
+   height: 25px;
+   padding: 0px;
+   border: 1px solid #D8DCDD;
+}
+
+.pagination button:hover {
+   background-color: #0159CA;
+}
